@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112BB6DE27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112BB6DD27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework */; };
 		323C2E29218437C600741D80 /* Mozilla_Firefox_logo_2013.svg in Resources */ = {isa = PBXBuildFile; fileRef = 323C2E28218437C600741D80 /* Mozilla_Firefox_logo_2013.svg */; };
-		32B5A1E4217333C200CAA60C /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */; };
-		32B5A1E6217333C800CAA60C /* CocoaLumberjack.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		32C4FD3A2173976C00FBEDBF /* radialGradientTest.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF52173976C00FBEDBF /* radialGradientTest.svg */; };
 		32C4FD3B2173976C00FBEDBF /* g-element-applies-rotation.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF62173976C00FBEDBF /* g-element-applies-rotation.svg */; };
 		32C4FD3C2173976C00FBEDBF /* Blank_Map-Africa.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF72173976C00FBEDBF /* Blank_Map-Africa.svg */; };
@@ -276,7 +275,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				32EE37932173434B00A23278 /* SVGKit.framework in Copy Frameworks */,
-				32B5A1E6217333C800CAA60C /* CocoaLumberjack.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,8 +282,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		112BB6DD27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "CocoaLumberjack-3.7.4.xcframework"; path = "3rd-party-frameworks/CocoaLumberjack-3.7.4.xcframework"; sourceTree = "<group>"; };
 		323C2E28218437C600741D80 /* Mozilla_Firefox_logo_2013.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mozilla_Firefox_logo_2013.svg; sourceTree = "<group>"; };
-		32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "3rd-party-frameworks/CocoaLumberjack-2.2.0/Mac/CocoaLumberjack.framework"; sourceTree = "<group>"; };
 		32C4FCF52173976C00FBEDBF /* radialGradientTest.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = radialGradientTest.svg; sourceTree = "<group>"; };
 		32C4FCF62173976C00FBEDBF /* g-element-applies-rotation.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "g-element-applies-rotation.svg"; sourceTree = "<group>"; };
 		32C4FCF72173976C00FBEDBF /* Blank_Map-Africa.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Blank_Map-Africa.svg"; sourceTree = "<group>"; };
@@ -379,9 +377,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112BB6DE27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework in Frameworks */,
 				32EE37922173434B00A23278 /* SVGKit.framework in Frameworks */,
 				32EE37912173433B00A23278 /* SVGKit.framework in Frameworks */,
-				32B5A1E4217333C200CAA60C /* CocoaLumberjack.framework in Frameworks */,
 				55D8EE2817628A71009C25F1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,7 +483,7 @@
 		32EE377A2173431300A23278 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32EE37842173431300A23278 /* libSVGKit-iOS.2.0.0.a */,
+				32EE37842173431300A23278 /* libSVGKit-iOS.2.1.0.a */,
 				32EE37862173431300A23278 /* SVGKit-iOS Tests.xctest */,
 				32EE37882173431300A23278 /* SVGKit.framework */,
 				32EE378A2173431300A23278 /* SVGKitFramework-iOSTests.xctest */,
@@ -543,7 +541,7 @@
 		55D8EE2617628A71009C25F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				32B5A1DD217333C200CAA60C /* CocoaLumberjack.framework */,
+				112BB6DD27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework */,
 				556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */,
 				55C362CA1782208700BA24FA /* QuartzCore.framework */,
 				55D8EE2717628A71009C25F1 /* Cocoa.framework */,
@@ -626,6 +624,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -657,10 +656,10 @@
 			remoteRef = 327B288A217DA6D2004D27FC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		32EE37842173431300A23278 /* libSVGKit-iOS.2.0.0.a */ = {
+		32EE37842173431300A23278 /* libSVGKit-iOS.2.1.0.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libSVGKit-iOS.2.0.0.a";
+			path = "libSVGKit-iOS.2.1.0.a";
 			remoteRef = 32EE37832173431300A23278 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1016,7 +1015,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -1031,7 +1031,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/Demo-OSX/Demo-OSX-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/SVGKitLibrary/Demo-OSX/Demo-OSX-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.github.maddthesane.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1049,7 +1052,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/Demo-OSX/Demo-OSX-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/SVGKitLibrary/Demo-OSX/Demo-OSX-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.github.maddthesane.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

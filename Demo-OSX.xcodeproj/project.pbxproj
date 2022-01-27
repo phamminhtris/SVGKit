@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112BB6DE27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112BB6DD27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework */; };
+		117E046B27A2601600BC8542 /* CocoaLumberjack.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E046A27A2601600BC8542 /* CocoaLumberjack.xcframework */; };
 		323C2E29218437C600741D80 /* Mozilla_Firefox_logo_2013.svg in Resources */ = {isa = PBXBuildFile; fileRef = 323C2E28218437C600741D80 /* Mozilla_Firefox_logo_2013.svg */; };
 		32C4FD3A2173976C00FBEDBF /* radialGradientTest.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF52173976C00FBEDBF /* radialGradientTest.svg */; };
 		32C4FD3B2173976C00FBEDBF /* g-element-applies-rotation.svg in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FCF62173976C00FBEDBF /* g-element-applies-rotation.svg */; };
@@ -153,118 +153,6 @@
 			remoteGlobalIDString = 321EAA612171EC8700640504;
 			remoteInfo = "SVGKitFramework-OSX";
 		};
-		55018B271B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
-			remoteInfo = CocoaLumberjack;
-		};
-		55018B291B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BF0F1A81D8B700692297;
-			remoteInfo = CocoaLumberjackSwift;
-		};
-		55018B2B1B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFA71A81DF5600692297;
-			remoteInfo = "CocoaLumberjack-iOS";
-		};
-		55018B2D1B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFC21A81DFA200692297;
-			remoteInfo = "CocoaLumberjackSwift-iOS";
-		};
-		55018B2F1B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFD71A81E06E00692297;
-			remoteInfo = "CocoaLumberjack-iOS-Static";
-		};
-		55018B311B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCB318CA14ED6C3B001CFBEE;
-			remoteInfo = FmwkTest;
-		};
-		55018B331B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55CCBEFF19BA679200957A39;
-			remoteInfo = SwiftTest;
-		};
-		55018B351B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BF5F1A81DD2E00692297;
-			remoteInfo = iOSSwiftTest;
-		};
-		55018B371B24E7F800936DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18F3BFF21A81E0C700692297;
-			remoteInfo = iOSLibStaticTest;
-		};
-		5529EC381DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19190EDE1B84D812008D059E;
-			remoteInfo = "CocoaLumberjack-watchOS";
-		};
-		5529EC3A1DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19190EEB1B84D826008D059E;
-			remoteInfo = "CocoaLumberjackSwift-watchOS";
-		};
-		5529EC3C1DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19D90B261BBFA9DB00947169;
-			remoteInfo = "CocoaLumberjack-tvOS";
-		};
-		5529EC3E1DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19D90B351BBFAA7500947169;
-			remoteInfo = "CocoaLumberjackSwift-tvOS";
-		};
-		5529EC401DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19EC14671B84D134000EC2E7;
-			remoteInfo = watchOSSwiftTest;
-		};
-		5529EC421DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19EC14731B84D134000EC2E7;
-			remoteInfo = "watchOSSwiftTest Extension";
-		};
-		5529EC441DA85C66006A9210 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 19406BE11BDBABFF001194DC;
-			remoteInfo = tvOSSwiftTest;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -282,7 +170,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		112BB6DD27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "CocoaLumberjack-3.7.4.xcframework"; path = "3rd-party-frameworks/CocoaLumberjack-3.7.4.xcframework"; sourceTree = "<group>"; };
+		117E046A27A2601600BC8542 /* CocoaLumberjack.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaLumberjack.xcframework; path = "3rd-party-frameworks/CocoaLumberjack-3.7.4/CocoaLumberjack.xcframework"; sourceTree = "<group>"; };
 		323C2E28218437C600741D80 /* Mozilla_Firefox_logo_2013.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mozilla_Firefox_logo_2013.svg; sourceTree = "<group>"; };
 		32C4FCF52173976C00FBEDBF /* radialGradientTest.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = radialGradientTest.svg; sourceTree = "<group>"; };
 		32C4FCF62173976C00FBEDBF /* g-element-applies-rotation.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "g-element-applies-rotation.svg"; sourceTree = "<group>"; };
@@ -353,7 +241,6 @@
 		32C4FD392173976C00FBEDBF /* heart.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heart.svg; sourceTree = "<group>"; };
 		32EE37792173431300A23278 /* SVGKit-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "SVGKit-iOS.xcodeproj"; sourceTree = "<group>"; };
 		55018B4B1B24E95700936DF7 /* Licenses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Licenses.plist; path = "Demo-Samples/Licenses.plist"; sourceTree = SOURCE_ROOT; };
-		556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = Source/Vendor/CocoaLumberjack/Lumberjack.xcodeproj; sourceTree = "<group>"; };
 		55C362CA1782208700BA24FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		55D8EE2417628A71009C25F1 /* Demo-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D8EE2717628A71009C25F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -377,7 +264,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112BB6DE27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework in Frameworks */,
+				117E046B27A2601600BC8542 /* CocoaLumberjack.xcframework in Frameworks */,
 				32EE37922173434B00A23278 /* SVGKit.framework in Frameworks */,
 				32EE37912173433B00A23278 /* SVGKit.framework in Frameworks */,
 				55D8EE2817628A71009C25F1 /* Cocoa.framework in Frameworks */,
@@ -495,29 +382,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55018B1B1B24E7F700936DF7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				55018B281B24E7F800936DF7 /* CocoaLumberjack.framework */,
-				55018B2A1B24E7F800936DF7 /* CocoaLumberjackSwift.framework */,
-				55018B2C1B24E7F800936DF7 /* CocoaLumberjack.framework */,
-				55018B2E1B24E7F800936DF7 /* CocoaLumberjackSwift.framework */,
-				55018B301B24E7F800936DF7 /* libCocoaLumberjack.a */,
-				5529EC391DA85C66006A9210 /* CocoaLumberjack.framework */,
-				5529EC3B1DA85C66006A9210 /* CocoaLumberjackSwift.framework */,
-				5529EC3D1DA85C66006A9210 /* CocoaLumberjack.framework */,
-				5529EC3F1DA85C66006A9210 /* CocoaLumberjackSwift.framework */,
-				55018B321B24E7F800936DF7 /* FmwkTest.app */,
-				55018B341B24E7F800936DF7 /* SwiftTest.app */,
-				55018B361B24E7F800936DF7 /* iOSSwiftTest.app */,
-				5529EC411DA85C66006A9210 /* watchOSSwiftTest.app */,
-				5529EC431DA85C66006A9210 /* watchOSSwiftTest Extension.appex */,
-				5529EC451DA85C66006A9210 /* tvOSSwiftTest.app */,
-				55018B381B24E7F800936DF7 /* iOSLibStaticTest.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		55D8EE1B17628A71009C25F1 = {
 			isa = PBXGroup;
 			children = (
@@ -541,8 +405,7 @@
 		55D8EE2617628A71009C25F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				112BB6DD27A25B5200CF32A6 /* CocoaLumberjack-3.7.4.xcframework */,
-				556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */,
+				117E046A27A2601600BC8542 /* CocoaLumberjack.xcframework */,
 				55C362CA1782208700BA24FA /* QuartzCore.framework */,
 				55D8EE2717628A71009C25F1 /* Cocoa.framework */,
 				55D8EE2917628A71009C25F1 /* Other Frameworks */,
@@ -633,10 +496,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 55018B1B1B24E7F700936DF7 /* Products */;
-					ProjectRef = 556427B71A4B9E5D006A7269 /* Lumberjack.xcodeproj */;
-				},
-				{
 					ProductGroup = 32EE377A2173431300A23278 /* Products */;
 					ProjectRef = 32EE37792173431300A23278 /* SVGKit-iOS.xcodeproj */;
 				},
@@ -703,118 +562,6 @@
 			fileType = wrapper.framework;
 			path = SVGKit.framework;
 			remoteRef = 32EE378F2173431300A23278 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B281B24E7F800936DF7 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 55018B271B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B2A1B24E7F800936DF7 /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = 55018B291B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B2C1B24E7F800936DF7 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 55018B2B1B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B2E1B24E7F800936DF7 /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = 55018B2D1B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B301B24E7F800936DF7 /* libCocoaLumberjack.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCocoaLumberjack.a;
-			remoteRef = 55018B2F1B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B321B24E7F800936DF7 /* FmwkTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = FmwkTest.app;
-			remoteRef = 55018B311B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B341B24E7F800936DF7 /* SwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SwiftTest.app;
-			remoteRef = 55018B331B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B361B24E7F800936DF7 /* iOSSwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iOSSwiftTest.app;
-			remoteRef = 55018B351B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		55018B381B24E7F800936DF7 /* iOSLibStaticTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = iOSLibStaticTest.app;
-			remoteRef = 55018B371B24E7F800936DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC391DA85C66006A9210 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 5529EC381DA85C66006A9210 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC3B1DA85C66006A9210 /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = 5529EC3A1DA85C66006A9210 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC3D1DA85C66006A9210 /* CocoaLumberjack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjack.framework;
-			remoteRef = 5529EC3C1DA85C66006A9210 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC3F1DA85C66006A9210 /* CocoaLumberjackSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CocoaLumberjackSwift.framework;
-			remoteRef = 5529EC3E1DA85C66006A9210 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC411DA85C66006A9210 /* watchOSSwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = watchOSSwiftTest.app;
-			remoteRef = 5529EC401DA85C66006A9210 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC431DA85C66006A9210 /* watchOSSwiftTest Extension.appex */ = {
-			isa = PBXReferenceProxy;
-			fileType = "wrapper.app-extension";
-			path = "watchOSSwiftTest Extension.appex";
-			remoteRef = 5529EC421DA85C66006A9210 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5529EC451DA85C66006A9210 /* tvOSSwiftTest.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = tvOSSwiftTest.app;
-			remoteRef = 5529EC441DA85C66006A9210 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

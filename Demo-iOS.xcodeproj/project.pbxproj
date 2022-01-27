@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112BB6D227A25AAE00CF32A6 /* CocoaLumberjack-3.7.4.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112BB6D127A25AAE00CF32A6 /* CocoaLumberjack-3.7.4.xcframework */; };
+		117E046027A25ED100BC8542 /* CocoaLumberjack.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117E045F27A25ED100BC8542 /* CocoaLumberjack.xcframework */; };
 		3242C36E217CF0CD0013765F /* Blocky.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3242C368217CF0CD0013765F /* Blocky.ttf */; };
 		32AF7BBE217389FD00142396 /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529DADF11C415FF00069B076 /* SVGKit.framework */; };
 		32AF7BC021738A0300142396 /* SVGKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 529DADF11C415FF00069B076 /* SVGKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -255,7 +255,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		112BB6D127A25AAE00CF32A6 /* CocoaLumberjack-3.7.4.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "CocoaLumberjack-3.7.4.xcframework"; path = "3rd-party-frameworks/CocoaLumberjack-3.7.4.xcframework"; sourceTree = "<group>"; };
+		117E045F27A25ED100BC8542 /* CocoaLumberjack.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaLumberjack.xcframework; path = "3rd-party-frameworks/CocoaLumberjack-3.7.4/CocoaLumberjack.xcframework"; sourceTree = "<group>"; };
 		3242C368217CF0CD0013765F /* Blocky.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blocky.ttf; sourceTree = "<group>"; };
 		32D3D5E62176E3FA00ED20D8 /* Mozilla_Firefox_logo_2013.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mozilla_Firefox_logo_2013.svg; sourceTree = "<group>"; };
 		32D3D5F02176FA0700ED20D8 /* Mozilla_Firefox_logo_2013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mozilla_Firefox_logo_2013.png; sourceTree = "<group>"; };
@@ -429,7 +429,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112BB6D227A25AAE00CF32A6 /* CocoaLumberjack-3.7.4.xcframework in Frameworks */,
+				117E046027A25ED100BC8542 /* CocoaLumberjack.xcframework in Frameworks */,
 				32AF7BBE217389FD00142396 /* SVGKit.framework in Frameworks */,
 				6661A77D1698BBE20061E349 /* CoreText.framework in Frameworks */,
 				6649E10F1617578500AFE92A /* libxml2.dylib in Frameworks */,
@@ -473,7 +473,7 @@
 		661A0DCD161727CF008D5FBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				112BB6D127A25AAE00CF32A6 /* CocoaLumberjack-3.7.4.xcframework */,
+				117E045F27A25ED100BC8542 /* CocoaLumberjack.xcframework */,
 				6649E10E1617578500AFE92A /* libxml2.dylib */,
 				6661A77C1698BBE20061E349 /* CoreText.framework */,
 				6649E0AC1617479200AFE92A /* QuartzCore.framework */,
